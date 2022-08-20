@@ -1,0 +1,299 @@
+
+*{
+margin:0;
+padding:0;
+font-family: 'Ubuntu', sans-serif;
+box-sizing:border-box;
+color:white;
+}
+
+.headBody{
+/*	background: radial-gradient(#FB67E2,#10163B);*/
+	 background: linear-gradient(#08142B,#4F8DFA); 
+	 height:650px;
+}
+.headsticker{
+	background: radial-gradient(#10163B,#005BFF);
+	height:40px;
+}
+.headsticker h3{
+	text-align:center;
+	line-height:40px;
+	font-size:17px;	
+	font-weight:400;
+}
+.headsticker a{
+	text-decoration:none;
+	color:white;
+}
+.headnav{
+background: #08142B;
+height:70px;
+border-bottom: 1px solid grey;
+}
+.headnavInner{
+	margin:0 auto;
+	width:95%;
+	display:flex;
+	justify-content:space-between;
+	padding-top:8px;
+}
+.headnavLogo{
+	display:flex;
+	align-items:center;
+}
+.logo{
+	height:20px;
+	width: 20px;
+	background-color:#4f8dfa;
+	margin-right:15px;
+	transform: rotateZ(45deg);
+	border-radius:4px;
+}
+.headnavLogo h3{
+	font-size:25px;
+	padding-top:8px;
+}
+.headnavLogo span{
+	color:grey;
+}
+.headnavLinks{
+	display:flex;
+	align-items:center;
+}
+.search{
+	height:40px;
+	width:40px;
+	background-color:#DCDCDC;
+	margin-right:15px;
+	border-radius:50%;
+	padding:6px;
+}
+.search p{
+	font-size:25px;
+}
+button{
+	padding:12px 20px;
+	border-radius:10px;
+	margin-right:20px;
+	font-size:15px;
+}
+.login{
+	background:transparent;
+	border: 2px solid white;
+}
+.signup{
+	background:white;
+	border:2px solid white;
+	color:black;
+}
+.headnavLinks h2{
+	font-size:45px;
+	font-weight:normal;
+}
+.headBodyInner{
+margin:0 auto;
+width:90%;
+padding-top:180px;
+}
+.headBodyInner h1{
+	font-size:50px;
+	margin-bottom:24px;
+}
+.headBodyInner h3{
+font-size:25px;
+margin-bottom:24px;
+font-weight:normal;
+line-height:35px;
+}
+.btn{
+	padding:15px 20px;
+	font-size:19px;
+	color:white;
+	border:none;
+	font-weight:normal;
+}
+.btn2{
+	background:#005BFF;
+}
+.log{
+	background:white;
+	color:black;
+}
+.wallets{
+	margin-bottom:90px;
+}
+.walletsInner{
+	width:90%;
+	margin:0 auto;
+	padding-top:130px;
+}
+.wallet, .exchange, .int, .explore{
+	background:#F6EEFF;
+	border-radius:25px;
+	margin-top:65px;
+	
+}
+.walletInner, .exchangeInner, .intInner, .exploreInner{
+	padding:20px 25px;
+}
+.walletHead, .exchangeHead, .intHead, .exploreHead{
+	width:100%;
+	margin-bottom:40px;
+}
+.btnhead{
+	font-size:18px;
+	border:none;
+	padding:18px 15px;
+	border-radius:20px;
+}
+.walletbtn{
+	color:#823AE3;
+	background:#E6D2FE;
+}
+.walletHead h2, .exchangeHead h2, .exploreHead h2{
+	color:#823AE3;
+	font-size:40px;
+	margin-top:40px;
+}
+.case{
+	width:70%;
+	color:#823AE3;
+	border: 2px solid #E6D2FE;
+	margin:15px 0;
+	border-radius:15px;
+}
+.caseInner{
+	width:80%;
+	padding:22px 20px;
+}
+.caseInner h4, p{
+	color:#823AE3;
+	font-size:17px;
+}
+.caseInner h4{
+margin-bottom:15px;
+}
+.btn1{
+	background:#823AE3;
+	margin-top:25px;
+}
+.caseInner2 p, .caseInner2 h4{
+	color: #005BFF;
+}
+.case2{
+	border: 2px solid #A1C4FE;
+}
+.btn22{
+margin-top:25px;
+}
+.caseInner3 p, .caseInner3 h4{
+color: #4F5667;
+line-height:30px;
+}
+.caseInner3 p{
+	margin-top:-40px;
+}
+.case3{
+border:none;
+}
+.btn3{
+background:#4F5667;
+margin-top:25px;
+}
+.caseInner4 p, .caseInner4 h4{
+color: #FDB500;
+}
+.case4{
+border: 2px solid #FDE6AB;
+}
+.btn4{
+background:#FDB500;
+margin-top:25px;
+
+}
+.breakInner{
+width:90%;
+margin: 0 auto;
+padding:95px 0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.breakInner h2{
+font-size:40px;	
+}
+ul > li {
+font-size:15px;
+line-height:35px;
+color:black;
+list-style-type:none;
+}
+ul > li:hover {
+color:#005BFF;
+}
+
+.footerInner{
+	width:90%;
+	margin:0 auto 70px;
+}
+.footerOne{
+	display:flex;
+}
+.footerSocials{
+	flex-basis:35%;
+}
+.footerLinks{
+	flex-basis:65%;
+	display:flex;
+}
+.product, .resources, .company{
+	flex-basis:32%;
+}
+.product h3, .resources h3, .company h3, .footerSocials h3{
+	font-size:20px;
+	color:black;
+	margin-bottom:25px;
+}
+.footerSocials h3{
+	font-size:30px;
+}
+ul li span{
+	background:#005BFF;
+	border-radius:4px;
+	padding:2px 5px;
+}
+.footertwo{
+	margin-top:40px;
+}
+.footertwo h2{
+	color: black;
+	margin-bottom:14px;
+	font-size:20px;
+}
+.footerthree{
+	display:flex;
+	margin-bottom:20px;
+	justify-content:space-between;
+}
+.footerthree h4, .footerthree a {
+	color:black;
+	font-weight:normal;
+}
+.footerthree .part1 {flex-basis:50%;}
+.footerthree h4 .part2{flex-basis:30%;}
+
+.footerthree a {
+	text-decoration:none;
+	color:#005BFF;
+	font-weight:bold;
+}
+.store{
+	font-size:10px;
+	background:black;
+	padding:8px 20px;
+}
+.store span{
+	font-size:15px;
+	font-weight:bold;
+}
